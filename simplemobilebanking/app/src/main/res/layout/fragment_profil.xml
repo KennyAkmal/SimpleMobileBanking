@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfilFragment"
+    android:background="@color/bg">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvnoHp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/resourcebg2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/editprofil"
+        style="@style/sanssBlack20"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/rectangle_set"
+        android:paddingStart="30dp"
+        android:text="Edit Profil"
+        android:textAlignment="textStart"
+        android:textSize="21sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonlogout"
+        style="@style/sanssBlack20"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btnsetting"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/rectangle_set"
+        android:paddingStart="30dp"
+        android:textSize="21sp"
+        android:text="Log out"
+        android:textAlignment="textStart" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsetting"
+        style="@style/sanssBlack20"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editprofil"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/rectangle_set"
+        android:paddingStart="30dp"
+        android:text="Setting"
+        android:textAlignment="textStart"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/tvUname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        style="@style/sanssWhite30"/>
+
+    <TextView
+        android:id="@+id/tvnoHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="30dp"
+        style="@style/sanssWhite30"
+        android:textSize="20dp"
+        android:layout_below="@id/tvUname"/>
+
+</RelativeLayout>

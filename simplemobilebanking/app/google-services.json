@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "241038872455",
+    "firebase_url": "https://mobile-banking-19b34-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mobile-banking-19b34",
+    "storage_bucket": "mobile-banking-19b34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241038872455:android:ed730a2e7de335c803cd22",
+        "android_client_info": {
+          "package_name": "com.example.simplemobilebanking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGgBJ2-DnzTQbX7wP57r2waLRG-TIFZwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

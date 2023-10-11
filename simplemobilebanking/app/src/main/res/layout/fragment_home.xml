@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/tvHai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="30dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:text="Hai,"
+        style="@style/sanssWhite30"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        style="@style/sanssWhite30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/tvHai"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvHai"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/resourcebg2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/imageView8"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/white_rectangle_10" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/white_rectangle_10" />
+
+    <ImageView
+        android:id="@+id/ivFeed"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@id/iv2"
+        android:layout_alignStart="@+id/iv2"
+        android:layout_alignEnd="@+id/iv2"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/white_rectangle_10" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnisisaldo"
+        android:text="isi saldo"
+        android:textColor="@color/transparan"
+        android:layout_width="75dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/tvFitur"
+        android:layout_alignStart="@+id/iv2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/baseline_add_box_24"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnisisaldo"
+        android:layout_alignStart="@+id/btnisisaldo"
+        android:layout_alignEnd="@+id/btnisisaldo"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Isi Saldo"
+        android:textColor="@color/bg"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/sanssBlack20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Saldo anda" />
+
+    <TextView
+        android:id="@+id/tvFitur"
+        style="@style/sanssBlack20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignTop="@+id/iv2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Fitur transaksi" />
+
+    <TextView
+        android:id="@+id/tvfeed"
+        android:textSize="20dp"
+        style="@style/sanssBlack20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ivFeed"
+        android:layout_alignTop="@+id/ivFeed"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Feed" />
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/sanssBlack30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:text="Rp" />
+
+    <TextView
+        android:id="@+id/tvSaldoSaya"
+        style="@style/sanssBlack30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/imageView13"
+        android:layout_toEndOf="@+id/textView15"
+        android:paddingStart="10dp"
+        android:text=""
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/tvFeed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvfeed"
+        android:layout_alignStart="@+id/ivFeed"
+        android:layout_alignEnd="@+id/ivFeed"
+        android:layout_alignBottom="@+id/ivFeed"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="53dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Tidak ada feed yang tersedia saat ini"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/saldo1" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="119dp"
+        android:layout_height="93dp"
+        android:layout_alignTop="@+id/ivFeed"
+        android:layout_alignEnd="@+id/ivFeed"
+        android:layout_alignBottom="@+id/ivFeed"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/feed1" />
+
+</RelativeLayout>
